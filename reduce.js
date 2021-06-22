@@ -13,3 +13,11 @@ console.log(`number is smaller ${a}${b}`);
 }, null);
 
 console.log(numl)
+
+//a=accumulator
+//b=iteration value
+//index=index
+//array=the array
+
+//null=initiliaze accumulator to null so that reducing starts from zero index
+

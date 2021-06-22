@@ -2,6 +2,7 @@ let nums=[14,9,6,8, 11, 12, 23, 4, 3, 30];
 var compareNumber=10;
 const numl=nums.reduce(function(a,b,index, array){
 if(b>compareNumber){
+ //break point
 array.splice(1);
  console.log(`number is larger ${a}${b}`);
  return index;
